@@ -146,6 +146,10 @@ body {
   width: calc((100% - 30px) / 2); /* gap'e göre yeniden hesaplama */
 }
 
+.thumbnail.full-width:last-child {
+  margin-left: calc(((100% - 90px) / 4) + 30px);
+}
+
 iframe {
   border-radius: 30px;
   width: 100%;
@@ -160,6 +164,10 @@ iframe {
   .thumbnail.full-width {
     width: calc((100% - 30px) * 2 / 3); /* gap'e göre hesaplama */
   }
+
+  .thumbnail.full-width:last-child {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -169,6 +177,10 @@ iframe {
 
   .thumbnail.full-width {
     width: 100%;
+  }
+
+  .thumbnail.full-width:last-child {
+    margin-left: 0;
   }
 }
 
@@ -183,6 +195,10 @@ iframe {
 
   .gallery {
     justify-content: center; /* Kartları ortala */
+  }
+
+  .thumbnail.full-width:last-child {
+    margin-left: 0;
   }
 }
 
