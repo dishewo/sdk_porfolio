@@ -202,6 +202,21 @@ iframe {
   }
 }
 
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .thumbnail:nth-child(5) {
+    order: 1;
+  }
+  .thumbnail:nth-child(8) {
+    order: 2;
+  }
+  .thumbnail:nth-child(6) {
+    order: 3;
+  }
+  .thumbnail:nth-child(7) {
+    order: 4;
+  }
+}
+
 footer {
   margin-top: 60px;
   background-color: #5b61b2;
