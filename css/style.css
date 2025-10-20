@@ -200,6 +200,25 @@ iframe {
   .thumbnail.full-width:last-child {
     margin-left: 0;
   }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .intro .column:first-child {
+    flex-direction: column-reverse;
+  }
+
+  .profile-wrapper {
+    width: 70%;
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
